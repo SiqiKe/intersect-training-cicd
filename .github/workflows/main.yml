@@ -1,0 +1,10 @@
+name: example
+
+on: push
+
+jobs:
+  say_hi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say_hi
+        run: echo Good morning, baby.
